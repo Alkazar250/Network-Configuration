@@ -1,0 +1,10 @@
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\bin\Debug\AR lab2.exe
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\bin\Debug\AR lab2.pdb
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\obj\x86\Debug\AR_lab2.Form1.resources
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\obj\x86\Debug\AR_lab2.Properties.Resources.resources
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\obj\x86\Debug\AR lab2.exe
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\obj\x86\Debug\AR lab2.pdb
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AR lab2\AR lab2\obj\x86\Debug\AR_lab2.Form2.resources

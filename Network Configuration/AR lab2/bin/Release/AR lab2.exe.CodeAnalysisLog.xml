@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2\bin\Release\AR lab2.exe">
+   <Modules>
+    <Module Name="ar lab2.exe">
+     <Namespaces>
+      <Namespace Name="AR_lab2">
+       <Types>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ChangeDNS(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2" File="Form1.cs" Line="178">В методе 'Form1.ChangeDNS(int)' вызовите System.IDisposable.Dispose для объекта 'classInstance' перед тем, как все ссылки на него будут вне области видимости.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ChangeGW(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2" File="Form1.cs" Line="151">В методе 'Form1.ChangeGW(int)' вызовите System.IDisposable.Dispose для объекта 'classInstance' перед тем, как все ссылки на него будут вне области видимости.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ChangeIP(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2" File="Form1.cs" Line="123">В методе 'Form1.ChangeIP(int)' вызовите System.IDisposable.Dispose для объекта 'classInstance' перед тем, как все ссылки на него будут вне области видимости.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Deserialize()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2" File="Form1.cs" Line="224">В методе 'Form1.Deserialize()' объект 'r' не уничтожается во всех возможных путях исключений. Следует вызвать метод System.IDisposable.Dispose для объекта 'r' до того, как все ссылки на него будут находиться вне области действия.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EnableDhcp(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2" File="Form1.cs" Line="103">В методе 'Form1.EnableDhcp(int)' вызовите System.IDisposable.Dispose для объекта 'classInstance' перед тем, как все ссылки на него будут вне области видимости.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#listBox1_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2" File="Form1.cs" Line="59">В методе 'Form1.listBox1_SelectedIndexChanged(object, EventArgs)' вызовите System.IDisposable.Dispose для объекта 'searcher' перед тем, как все ссылки на него будут вне области видимости.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Populate()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2" File="Form1.cs" Line="36">В методе 'Form1.Populate()' вызовите System.IDisposable.Dispose для объекта 'searcher' перед тем, как все ссылки на него будут вне области видимости.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Serialize()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\AR lab2\AR lab2" File="Form1.cs" Line="216">В методе 'Form1.Serialize()' объект 'w' не уничтожается во всех возможных путях исключений. Следует вызвать метод System.IDisposable.Dispose для объекта 'w' до того, как все ссылки на него будут находиться вне области действия.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProcessWorkingSetSize(System.IntPtr,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Так как метод является методом P/Invoke, 'Form1.SetProcessWorkingSetSize(IntPtr, int, int)' должен быть определен в классе с именем NativeMethods, SafeNativeMethods или UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message Id="1" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error">Как объявлено в вашем коде, параметр 'minimumWorkingSetSize' для P/Invoke 'Form1.SetProcessWorkingSetSize(IntPtr, int, int)' будет иметь размер 4 байт для 64-разрядных платформ. Это неправильно, поскольку текущее объявление в машинном коде для данного API указывает, что его размер должен быть 8 байт для 64-разрядных платформ. Обратитесь к документации MSDN Platform SDK и выясните, какой тип данных следует использовать вместо 'int'.</Issue>
+            </Message>
+            <Message Id="2" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error">Как объявлено в вашем коде, параметр 'maximumWorkingSetSize' для P/Invoke 'Form1.SetProcessWorkingSetSize(IntPtr, int, int)' будет иметь размер 4 байт для 64-разрядных платформ. Это неправильно, поскольку текущее объявление в машинном коде для данного API указывает, что его размер должен быть 8 байт для 64-разрядных платформ. Обратитесь к документации MSDN Platform SDK и выясните, какой тип данных следует использовать вместо 'int'.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2011-11-07 10:27:01Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Измените уровень доступа P/Invoke 'Form1.SetProcessWorkingSetSize(IntPtr, int, int)', чтобы он не был виден извне своей сборки.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>Переместите методы P/Invoke в класс NativeMethods</Name>
+   <Description>В этом типе содержатся члены с атрибутом DllImport. Члены с атрибутом DllImport должны содержаться в классах с именем NativeMethods, SafeNativeMethods или UnsafeNativeMethods.</Description>
+   <Resolution Name="Default">Так как метод является методом P/Invoke, {0} должен быть определен в классе с именем NativeMethods, SafeNativeMethods или UnsafeNativeMethods.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901">
+   <Name>Объявления P/Invoke должны быть переносимыми</Name>
+   <Description>.</Description>
+   <Resolution Name="Parameter">Как объявлено в вашем коде, параметр {0} для P/Invoke {1} будет иметь размер {2} байт для {3} платформ. Это неправильно, поскольку текущее объявление в машинном коде для данного API указывает, что его размер должен быть {4} байт для {3} платформ. Обратитесь к документации MSDN Platform SDK и выясните, какой тип данных следует использовать вместо {5}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182284(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="portabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401">
+   <Name>Методы P/Invoke не должны быть видимыми</Name>
+   <Description>Уровень взаимодействия не должен быть открытым. Не следует применять атрибут DllImport к открыто доступным членам (открытым или защищенным).</Description>
+   <Resolution Name="Default">Измените уровень доступа P/Invoke {0}, чтобы он не был виден извне своей сборки.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182209(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalError</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Ликвидировать объекты перед потерей области</Name>
+   <Description>Если освобождаемый объект не высвобождается явно до того, как все ссылки на него оказываются вне области имен, объект будет высвобожден в некоторый заранее не определенный момент, когда сборщик мусора запустит завершающий метод объекта. Так как может возникнуть событие исключения, препятствующее выполнению метода завершения объекта, объект будет ликвидирован в явной форме.</Description>
+   <Resolution Name="ExceptionEdge">В методе {0} объект {1} не уничтожается во всех возможных путях исключений. Следует вызвать метод System.IDisposable.Dispose для объекта {1} до того, как все ссылки на него будут находиться вне области действия.</Resolution>
+   <Resolution Name="NonExceptionEdge">В методе {0} вызовите System.IDisposable.Dispose для объекта {1} перед тем, как все ссылки на него будут вне области видимости.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Категория</String>
+  <String Key="Certainty">Достоверность</String>
+  <String Key="CollapseAll">Свернуть все</String>
+  <String Key="CheckId">ИД проверки</String>
+  <String Key="Error">Ошибка</String>
+  <String Key="Errors">ошибки</String>
+  <String Key="ExpandAll">Развернуть все</String>
+  <String Key="Help">Справка</String>
+  <String Key="Line">Строка</String>
+  <String Key="Messages">сообщения</String>
+  <String Key="LocationNotStoredInPdb">[расположение не сохранено в PDB]</String>
+  <String Key="Project">Проект</String>
+  <String Key="Resolution">Разрешение</String>
+  <String Key="Rule">Правило</String>
+  <String Key="RuleFile">Файл правил</String>
+  <String Key="RuleDescription">Описание правила</String>
+  <String Key="Source">Источник</String>
+  <String Key="Status">Состояние</String>
+  <String Key="Target">Цель</String>
+  <String Key="Warning">Предупреждение</String>
+  <String Key="Warnings">предупреждения</String>
+  <String Key="ReportTitle">Отчет по анализу кода</String>
+ </Localized>
+</FxCopReport>
